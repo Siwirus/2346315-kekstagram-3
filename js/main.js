@@ -1,1 +1,1 @@
-console.log('я гей');
+console.log('привет мир');
