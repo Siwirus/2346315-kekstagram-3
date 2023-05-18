@@ -1,6 +1,7 @@
-import {randomDescription} from './data.js';
+//import {randomDescription} from './data.js';
 import {photoRender} from './script.js';
-import './form-work.js';
-import './validadion.js';
-const dis = randomDescription();
-photoRender(dis);
+import {getData} from './server-data.js';
+import {showAlert} from './util.js';
+import './validation.js';
+getData(photoRender, showAlert);
+

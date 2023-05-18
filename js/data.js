@@ -46,5 +46,4 @@ const heat = {
 };
 
 export const settings = [chrome, sepia, marvin, phobos, heat];
-export {randomObject, randomDescription};
 
